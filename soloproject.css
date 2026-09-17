@@ -1,0 +1,61 @@
+.main{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-img{
+    display: block;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 3px solid #121212;
+}
+
+.search-input{
+    display: block;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 8px 40px;
+    border: 3px solid #121212;
+}
+
+.search-input::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(131, 131, 131);
+}
+
+.btn {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    padding: 8px 80px;
+    border: none;
+    background-color: #121212;
+    color: rgb(247, 244, 244);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.page-text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}   

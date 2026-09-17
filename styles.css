@@ -27,27 +27,17 @@
   color: #c4c7c5ff;
 }
 
-.btn {
-  display: block;
-  line-height: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 8px px;
-  border: none;
-  border-radius: 12px;
-  background-color: rgb(243, 245, 246);
-  color: rgb(31, 31, 31);
-  font-size: 14px;
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-.btn2 {
-  display: block;
+.btn {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
   line-height: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 8px px;
+  padding: 8px 16px;
   border: none;
   border-radius: 12px;
   background-color: rgb(243, 245, 246);
